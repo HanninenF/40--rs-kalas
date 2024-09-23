@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>40-års-kalas</title>
+    <script src="40-års-kalas-vers1.2.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>40-års-kalas!</h1>
+    </header>
+
+    <section>
+      <form class="button" action="" method="post">
+        <fieldset>
+          <legend>Anmälan till kalaset</legend>
+          <label for="age">Age:</label>
+          <input type="text" class="name" name="name" required />
+
+          <br />
+
+          <label for="message">Meddelande till arrangören:</label> <br />
+          <textarea class="message" name="message"> </textarea> <br />
+          <button type="submit">Skicka</button>
+        </fieldset>
+      </form>
+      <section class="message-sec">
+        <button class="message-btn">
+          Knappen <label for="message"></label>
+        </button>
+      </section>
+    </section>
+    <div class="response"></div>
+  </body>
+</html>
